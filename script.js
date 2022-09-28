@@ -28,6 +28,7 @@ function generatePassword() {
       var randomPassword = Math.floor(Math.random() * option.length);
       password = password + option[randomPassword]
     }
+    
     return password
 }
 
